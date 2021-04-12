@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Quiz</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!-- progress bar begins -->
+            <header>
+                <h1>Test Your Coding Knowledge</h1>
+                <ul>
+                    <li>Question: <span id="progress">0</span> / 5</li>
+                    <li>🕐 <span id="timer"></span></li>
+                    <li><span id="score">0</span> Correct</li>
+                </ul>
+            </header>
+        <!-- progress bar ends -->
+
+        <!-- quiz card begins -->
+        <main class="quiz" id="quiz" style="display: none">
+            <!-- question -->
+                <div class="questions">
+                    <p id="question">What is the color of a banana?</p>
+                </div>
+            <!-- answers -->
+                <form class="answers">
+                    <p id="A" onclick="checkAnswer('A')">Red</p>
+                    <p id="B" onclick="checkAnswer('B')">Blue</p>
+                    <p id="C" onclick="checkAnswer('C')">Green</p>
+                    <p id="D" onclick="checkAnswer('D')">Yellow</p>
+                </form>
+            </main>
+        <!-- quiz card ends-->
+
+        <!-- log score begins -->
+            <div class="log-score" style="display: none">
+                <label for="log-score">Password</label>
+                <input
+                type="score"
+                name="score"
+                id="your-score"
+                placeholder="KB 200"
+                />
+            </div>
+        <!-- log score ends -->
+
+        <!-- options begin -->
+            <div class="options">
+                <ul class="options">
+                    <li id="start">Start</li>
+                    <li id="high-scores">View High Scores</li>
+                </ul>
+            </div>
+        <!-- options end -->
+
+        <!-- high scores begin -->
+            <div class="view-scores" id="view-scores" style="display: none">
+                <h2>High Scores</h2>
+                <ul class="high-scores" id="high-scores">
+                    <li>KB 100</li>
+                    <li>KB 100</li>
+                    <li>KB 100</li>
+                    <li>KB 100</li>
+                    <li>KB 100</li>
+                    <li>KB 100</li>
+                </ul>
+            </div>
+        <!-- high scores end -->
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
