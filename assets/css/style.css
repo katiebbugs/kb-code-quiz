@@ -82,7 +82,39 @@
 
 /* log score begins */
         .log-score {
-            
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            background-color: var(--secondary);
+            color: black;
+            padding: 30px;
+        }
+
+        .log-score label {
+            background-color: var(--tertiary);
+            border-radius: 5px;
+            color: black;
+            text-align: center;
+            font-size: 28px;
+            width: 60%;
+            margin: 0 0 20px;
+            padding: 10%;
+        }
+
+        button {
+            border: 2px solid var(--primary);
+            border-radius: 10px;
+            color: var(--primary);
+            text-align: center;
+            font-size: 23px;
+            width: 100%;
+            margin: 30px 0 0;
+            padding: 2%;
+        }
+        button:hover {
+            background-color: var(--primary);
+            color: var(--secondary);
         }
 /* log score ends */
 

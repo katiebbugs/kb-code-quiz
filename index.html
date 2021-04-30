@@ -36,22 +36,18 @@
         <!-- quiz card ends-->
 
         <!-- log score begins -->
-            <div class="log-score" style="display: none">
-                <label for="log-score">Password</label>
-                <input
-                type="score"
-                name="score"
-                id="your-score"
-                placeholder="KB 200"
-                />
-            </div>
+            <form class="log-score" id="log-score" style="display: none">
+                <label for="log-score">Well Done! Enter Your Initials:</label>
+                <input type="text" id="initials" name="initials">
+                <br>
+                <button type="submit" id="submit">Submit</button>
+            </form>
         <!-- log score ends -->
 
         <!-- options begin -->
             <div class="options">
-                <ul class="options">
+                <ul>
                     <li id="start">Start</li>
-                    <li id="high-scores">View High Scores</li>
                 </ul>
             </div>
         <!-- options end -->
@@ -60,12 +56,7 @@
             <div class="view-scores" id="view-scores" style="display: none">
                 <h2>High Scores</h2>
                 <ul class="high-scores" id="high-scores">
-                    <li>KB 100</li>
-                    <li>KB 100</li>
-                    <li>KB 100</li>
-                    <li>KB 100</li>
-                    <li>KB 100</li>
-                    <li>KB 100</li>
+                    
                 </ul>
             </div>
         <!-- high scores end -->
