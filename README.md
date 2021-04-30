@@ -1,9 +1,9 @@
 # kb-code-quiz
 4. Web APIs Challenge: Code Quiz
 
+https://github.com/katiebbugs/kb-code-quiz
 
-
-
+https://katiebbugs.github.io/kb-code-quiz/
 
 On-the-Job Ticket:
 
@@ -29,3 +29,5 @@ Created HTML foundation and styled with CSS
 Created functions to run the questions, start timer, log current score, and current question
 Created functions to log score and the user input initials to local storage
 Create functions to pull local storage and show it in HTML
+
+![Code Quiz](https://user-images.githubusercontent.com/79028196/116645326-d2801380-a932-11eb-8022-6194536d7952.png)
