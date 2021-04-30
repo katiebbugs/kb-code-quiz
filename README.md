@@ -25,3 +25,7 @@ THEN I can save my initials and score
 
 Completed Tasks:
 
+Created HTML foundation and styled with CSS
+Created functions to run the questions, start timer, log current score, and current question
+Created functions to log score and the user input initials to local storage
+Create functions to pull local storage and show it in HTML
